@@ -37,11 +37,12 @@ body {
     background-color: papayawhip;
 	border:1px dotted blue;
 	-webkit-animation-name:dana;
+	animation-name:dana;
 	-webkit-animation-duration:8s;
-	-webkit-animation-delay:1s;
+	animation-duration:8s;
 	-webkit-animation-iteration-count:9;
-	-webkit-animation-direction: reverse alternate;
-  position: relative;
+	animation-iteration-count:9;
+
 
 }
 @keyframes dana {
@@ -55,6 +56,16 @@ body {
 80% {-webkit-background-color: linear-gradient(green, grey);} 
 90% {-webkit-background-color: linear-gradient(pink, blue);} 
 100% {-webkit-background-color: linear-gradient(green, pink);}
+	10% {background-color: linear-gradient(green, blue);} 
+20% {background-color: linear-gradient(blue, green);} 
+30% {background-color: linear-gradient(yellow, blue);} 
+40% {background-color: linear-gradient(green, yellow);} 
+50% {background-color: linear-gradient(black, blue);} 
+60% {background-color: linear-gradient(green, black);} 
+70% {background-color: linear-gradient(grey, blue);} 
+80% {background-color: linear-gradient(green, grey);} 
+90% {background-color: linear-gradient(pink, blue);} 
+100% {background-color: linear-gradient(green, pink);}
  }
     </style>
     <script>  
